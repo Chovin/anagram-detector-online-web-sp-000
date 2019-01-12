@@ -13,6 +13,8 @@ class Anagram
   end
   
   def match(arr)
-    arr.collect
+    arr.split.sellect { |word|
+      Anagram.new(word) == self
+    }
   end
 end 
