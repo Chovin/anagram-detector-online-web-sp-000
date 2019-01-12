@@ -9,10 +9,10 @@ class Anagram
   end
   
   def ==(other)
-    
+    @letters==other.letters
   end
   
   def match(arr)
-    
+    arr.collect
   end
 end 
