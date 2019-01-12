@@ -5,10 +5,10 @@ class Anagram
   attr_accessor :letters
   
   def initialize(word)
-   
+   @letters = word.split().sort
   end
   
-  def equals?(other)
+  def ==(other)
     
   end
   
