@@ -5,7 +5,7 @@ class Anagram
   attr_accessor :letters
   
   def initialize(word)
-   @letters = word.split().sort
+   @letters = word.chars.sort
   end
   
   def ==(other)
